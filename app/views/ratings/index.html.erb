@@ -1,1 +1,10 @@
 <h2>Ratings</h2>
+
+<p>Number of ratings: <%= @ratings.size %></p>
+<% @ratings.each do |rating| %>
+
+<ul>
+  <li><%= rating.to_s %></li>
+</ul>
+
+<% end %>
