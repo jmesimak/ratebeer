@@ -1,11 +1,12 @@
 class Beer < ActiveRecord::Base
+  include Enumerable
   attr_accessible :brewery_id, :name, :style
 
   belongs_to :brewery
 
   has_many :ratings
 
-  def average_rating
+  def average_rating_typical
     allRatings = self.ratings
     total = 0.0
     allRatings.each do |rating|
@@ -13,5 +14,11 @@ class Beer < ActiveRecord::Base
     end
     return total/allRatings.size
   end
+
+begin
+  def average_rating
+    return (self.ratings.inject(0.0) { |result, rating | result + rating.score }) / self.ratings.size
+  end
+end
 
 end
