@@ -9,13 +9,12 @@
 <%= yield %>
 
 <p>Number of ratings: <%= @ratings.size %></p>
-<% @ratings.each do |rating| %>
 
-<ul>
-  <li><%= rating.to_s %></li>
-</ul>
+    <ul>
+      <% @ratings.each do |rating| %>
+          <li> <%= rating %> <%= link_to 'delete', rating_path(rating.id), :method => :delete, data: { confirm: 'Are you sure?' } %> </li>
+      <% end %>
+    </ul>
 
 
-<% end %>
-
-<%= link_to 'New Rating', ratings_new_path  %>
+<%= link_to 'New Rating', new_rating_path  %>

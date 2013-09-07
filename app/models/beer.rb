@@ -4,7 +4,7 @@ class Beer < ActiveRecord::Base
 
   belongs_to :brewery
 
-  has_many :ratings
+  has_many :ratings, :dependent => :destroy
 
   def average_rating_typical
     allRatings = self.ratings
@@ -17,6 +17,10 @@ class Beer < ActiveRecord::Base
 
   def average_rating
     return (self.ratings.inject(0.0) { |result, rating | result + rating.score }) / self.ratings.size
+  end
+
+  def to_s
+    return self.name + ', ' + self.brewery.name
   end
 
 end
