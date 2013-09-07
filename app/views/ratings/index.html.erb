@@ -1,5 +1,13 @@
 <h2>Ratings</h2>
 
+<% if flash[:alert] %>
+    <p class="flash-error"><%= flash[:alert] %></p>
+<% end %>
+<% if flash[:notice] %>
+    <p class="flash-notice"><%= flash[:notice] %></p>
+<% end %>
+<%= yield %>
+
 <p>Number of ratings: <%= @ratings.size %></p>
 <% @ratings.each do |rating| %>
 
@@ -7,4 +15,7 @@
   <li><%= rating.to_s %></li>
 </ul>
 
+
 <% end %>
+
+<%= link_to 'New Rating', ratings_new_path  %>
