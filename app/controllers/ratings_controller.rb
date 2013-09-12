@@ -13,6 +13,7 @@ class RatingsController < ApplicationController
     if @rating.valid?
       @rating.save
       flash[:notice] = 'Rating successfully created'
+      session[:last_rating] = "#{Beer.find(params[:rating][:beer_id])} #{params[:rating][:score]} points"
       redirect_to ratings_path
     else
       flash[:error] = 'Check the beer id!'

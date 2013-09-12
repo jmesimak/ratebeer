@@ -1,5 +1,6 @@
 class Beer < ActiveRecord::Base
   include Enumerable
+  include RatingTools
   attr_accessible :brewery_id, :name, :style
 
   belongs_to :brewery
@@ -15,9 +16,9 @@ class Beer < ActiveRecord::Base
     return total/allRatings.size
   end
 
-  def average_rating
-    return (self.ratings.inject(0.0) { |result, rating | result + rating.score }) / self.ratings.size
-  end
+  #def average_rating
+  #  return (self.ratings.inject(0.0) { |result, rating | result + rating.score }) / self.ratings.size
+  #end
 
   def to_s
     return self.name + ', ' + self.brewery.name
