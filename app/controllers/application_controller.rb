@@ -6,6 +6,11 @@ class ApplicationController < ActionController::Base
 
   def current_user
     return nil if session[:user_id].nil?
+    user = User.where(id: session[:user_id])
+    if user.empty?
+      reset_session
+      return nil
+    end
     User.find(session[:user_id])
   end
 
