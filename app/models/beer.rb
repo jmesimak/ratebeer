@@ -3,6 +3,9 @@ class Beer < ActiveRecord::Base
   include RatingTools
   attr_accessible :brewery_id, :name, :style
 
+  validates_length_of :name, :minimum => 1
+
+
   belongs_to :brewery
 
   has_many :ratings, :dependent => :destroy

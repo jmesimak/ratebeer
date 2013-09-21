@@ -4,7 +4,9 @@ class User < ActiveRecord::Base
   has_secure_password
 
   validates_uniqueness_of :username
+  validates_length_of :username, :minimum => 3, :maximum => 15, :allow_blank => false
   validates_length_of :password, :minimum => 4
+  validates :password, :format => {:with => /^(?=.*[a-zA-Z])(?=.*[0-9]).{4,}$/, message: "must be at least 4 characters and include one number and one letter."}
 
 
 
