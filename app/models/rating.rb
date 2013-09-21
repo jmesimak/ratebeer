@@ -4,7 +4,6 @@ class Rating < ActiveRecord::Base
 
   belongs_to :beer
   belongs_to :user
-
   validates_presence_of :beer, :beer_id
 
 

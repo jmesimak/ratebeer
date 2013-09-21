@@ -9,13 +9,20 @@
   has given <%= @user.ratings.size %> ratings, average <%= @user.average_rating %>
 </p>
 
+<p> <%= @user.username %> belongs to <%= pluralize(@user.clubmanships.size, 'club') %></p>
+<ul>
+  <% @user.clubmanships.each do |club| %>
+    <li><%= link_to club.name, club %></li>
+  <% end %>
+</ul>
+
 <ul>
   <% @user.ratings.each do |rating| %>
-    <li><%= rating.to_s %> <%= link_to 'delete', rating, method: :delete, data: { confirm: 'fo sho?'} %></li>
+    <li><%= rating.to_s %> <%= link_to 'delete', rating, method: :delete, data: { confirm: 'fo sho?'} if currently_signed_in?(@user)%></li>
   <% end %>
 
 </ul>
 
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<%= link_to 'Edit', edit_user_path(@user) if currently_signed_in?(@user) %>
+<%= link_to 'Delete account', @user, method: :delete, data: { confirm: 'Are you sure?' } if currently_signed_in?(@user) %>

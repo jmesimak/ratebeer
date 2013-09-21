@@ -1,0 +1,18 @@
+<h1>Listing memberships</h1>
+<p id="notice"><%= notice %></p>
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @memberships.each do |membership| %>
+
+  <p>User <%= membership.user.username %> belong to <%= membership.beer_club %></p>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Membership', new_membership_path %>

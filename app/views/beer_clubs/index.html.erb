@@ -1,0 +1,13 @@
+<h1>Listing all the fun Beer Clubs on ze planet</h1>
+
+
+
+<% @beer_clubs.each do |beer_club| %>
+  <tr>
+    <ul><%= link_to beer_club.name, beer_club %></ul>
+  </tr>
+<% end %>
+
+<br />
+
+<%= link_to 'New Beer club', new_beer_club_path %>
