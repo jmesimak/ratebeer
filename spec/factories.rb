@@ -10,10 +10,21 @@ FactoryGirl.define do
     year 1900
   end
 
+  factory :brewery2, :class => Brewery do
+    name "supernymous"
+    year 1990
+  end
+
   factory :beer do
     name "anonymous"
     brewery
     style "Lager"
+  end
+
+  factory :beer2, :class => Beer do
+    name "superiore"
+    brewery
+    style "Super"
   end
 
   factory :rating, :class => Rating do
@@ -24,5 +35,10 @@ FactoryGirl.define do
   factory :rating2, :class => Rating do
     score 20
     beer_id 1
+  end
+
+  factory :rating3, :class => Rating do
+    score 30
+    beer_id 2
   end
 end

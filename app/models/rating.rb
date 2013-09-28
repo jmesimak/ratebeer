@@ -14,5 +14,8 @@ class Rating < ActiveRecord::Base
     return self.beer.name + " " + self.score.to_s
   end
 
+  def style_score
+    return { beer.style => score }
+  end
 
 end
