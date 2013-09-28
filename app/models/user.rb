@@ -14,4 +14,9 @@ class User < ActiveRecord::Base
   has_many :beers, :through => :ratings
   has_many :memberships
   has_many :clubmanships, through: :memberships, source: :beer_club
+
+  def favorite_beer
+    return nil if ratings.empty?
+    ratings.sort_by{ |r| r.score }.last.beer
+  end
 end
