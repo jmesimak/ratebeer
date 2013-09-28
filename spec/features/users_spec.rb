@@ -1,4 +1,5 @@
 require 'spec_helper'
+include OwnTestHelper
 
 describe "User" do
   before :each do
@@ -7,13 +8,27 @@ describe "User" do
 
   describe "who has signed up" do
     it "can sign in with right credentials" do
-      visit signin_path
-      fill_in('username', :with => 'Pekka')
-      fill_in('password', :with => 'foobar1')
-      click_button('Log in')
-
+      sign_in 'Pekka', 'foobar1'
       expect(page).to have_content 'Welcome back!'
       expect(page).to have_content 'Pekka'
+    end
+
+    it "is redirected back to sign in form if wrong credentials given" do
+      sign_in 'Pekka', 'noodle'
+
+      expect(current_path).to eq(signin_path)
+      expect(page).to have_content 'username and password do not match'
+    end
+
+    it "when signed up with good credentials, is added to the system" do
+      visit signup_path
+      fill_in('user_username', :with => 'Brian')
+      fill_in('user_password', :with => 'secret55')
+      fill_in('user_password_confirmation', :with => 'secret55')
+
+      expect{
+        click_button('Create User')
+      }.to change{User.count}.by(1)
     end
   end
 end
