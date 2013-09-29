@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_filter :ensure_that_signed_in, :except => [:index, :new, :create]
   # GET /users
   # GET /users.json
   def index
@@ -44,6 +45,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
+        @user.admin = false
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render json: @user, status: :created, location: @user }
       else

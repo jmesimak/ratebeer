@@ -37,7 +37,6 @@ describe "User" do
       birra = FactoryGirl.create :beer, :name => "iso 3", :style => "super", :brewery => brewery
       reitinki = Rating.create :beer_id => birra.id, :user => user, :score => 10
       sign_in 'Pekka', 'foobar1'
-      save_and_open_page
       expect(page).to have_content "Favorite brewery: #{brewery.name}"
       expect(page).to have_content "Favorite style: #{birra.style}"
 

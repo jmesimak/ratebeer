@@ -26,4 +26,4 @@
 <p>
 <%= link_to 'list all breweries', breweries_path %>
 </p>
-<%= link_to 'New Beer', new_beer_path %>
+<%= link_to('New Beer', new_beer_path) if current_user %>

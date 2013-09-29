@@ -9,8 +9,6 @@ class User < ActiveRecord::Base
   validates_length_of :password, :minimum => 4
   validates :password, :format => {:with => /^(?=.*[a-zA-Z])(?=.*[0-9]).{4,}$/, message: "must be at least 4 characters and include one number and one letter."}
 
-
-
   has_many :ratings, dependent: :destroy
   has_many :beers, :through => :ratings
   has_many :memberships
