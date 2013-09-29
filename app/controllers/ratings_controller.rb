@@ -11,13 +11,18 @@ class RatingsController < ApplicationController
   def create
     @rating = Rating.new params[:rating]
 
-    if @rating.save
-      current_user.ratings << @rating
-      redirect_to user_path current_user
-    else
-      @beers = Beer.all
-      render :new
-    end
+   # if current_user
+      if @rating.save
+        current_user.ratings << @rating
+        redirect_to user_path current_user
+      else
+        @beers = Beer.all
+        render :new
+      end
+    #else
+      #redirect_to signin_path, notice: 'Sign up or sign in before rating a beer'
+   # end
+
   end
 
   def destroy

@@ -53,8 +53,6 @@ class UsersController < ApplicationController
     end
   end
 
-  # PUT /users/1
-  # PUT /users/1.json
   def update
     @user = User.find(params[:id])
 
@@ -73,10 +71,7 @@ class UsersController < ApplicationController
   # DELETE /users/1.json
   def destroy
     @user = User.find(params[:id])
-    if currently_signed_in?(@user)
-      #reset_session
-      @user.destroy
-    end
+    @user.destroy if currently_signed_in? @user
 
     respond_to do |format|
       format.html { redirect_to users_url }

@@ -26,13 +26,38 @@ describe "Rating" do
   end
 
   it "lists the ratings and their total number" do
+    ratings = create_two_ratings
     visit ratings_path
+    expect(page).to have_content "Number of ratings: #{ratings.size}"
+    check_page_for_ratings(ratings)
+  end
 
+  it "created ratings are shown on the respective user's page" do
+    ratings = create_two_ratings
+    # user_path does not work
+    visit '1#show'
+    expect(page).to have_content "has given #{ratings.size} ratings"
+    check_page_for_ratings(ratings)
+  end
 
-    save_and_open_page
-    expect(page).to have_content "Number of ratings #{@ratings.count}"
-    @ratings.each do |rating|
+  it "deleted rating is succesfully eradicated from the database" do
+    (FactoryGirl.create :rating, :score => 5, :beer => beer1, :user => user)
+    visit '1#show'
+    click_link 'delete'
+    expect(user.ratings.count).to eq(0)
+    expect(beer1.ratings.count).to eq(0)
+  end
+
+  def check_page_for_ratings(ratings)
+    ratings.each do |rating|
       expect(page).to have_content rating
     end
+  end
+
+  def create_two_ratings
+    ratings = []
+    ratings << (FactoryGirl.create :rating, :score => 5, :beer => beer1, :user => user)
+    ratings << (FactoryGirl.create :rating2, :score => 6, :beer => beer2, :user => user)
+    return ratings
   end
 end

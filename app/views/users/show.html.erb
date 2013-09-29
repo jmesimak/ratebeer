@@ -5,6 +5,15 @@
   <%= @user.username %>
 </p>
 
+<% if !@user.favorite_style.nil? && !@user.favorite_brewery.nil?%>
+    <p>Favorite style:
+      <%= @user.favorite_style %>
+    </p>
+    <p>Favorite brewery:
+      <%= @user.favorite_brewery.name %>
+    </p>
+<% end %>
+
 <p>
   has given <%= @user.ratings.size %> ratings, average <%= @user.average_rating %>
 </p>
@@ -12,13 +21,13 @@
 <p> <%= @user.username %> belongs to <%= pluralize(@user.clubmanships.size, 'club') %></p>
 <ul>
   <% @user.clubmanships.each do |club| %>
-    <li><%= link_to club.name, club %></li>
+      <li><%= link_to club.name, club %></li>
   <% end %>
 </ul>
 
 <ul>
   <% @user.ratings.each do |rating| %>
-    <li><%= rating.to_s %> <%= link_to 'delete', rating, method: :delete, data: { confirm: 'fo sho?'} if currently_signed_in?(@user)%></li>
+      <li><%= rating.to_s %> <%= link_to 'delete', rating, method: :delete, data: { confirm: 'fo sho?'} if currently_signed_in?(@user)%></li>
   <% end %>
 
 </ul>
