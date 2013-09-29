@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'travis', '~> 1.5.4'
 
 
 # Bundle edge Rails instead:
