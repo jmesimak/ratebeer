@@ -18,6 +18,7 @@ Ratebeer::Application.routes.draw do
   resources :ratings, :only => [:index, :new, :create, :destroy]
   resources :beers
   resources :sessions, :only => [:new, :create, :destroy]
+  resources :places, :only => [:index, :show]
 
 
   resources :breweries

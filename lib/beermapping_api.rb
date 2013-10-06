@@ -1,4 +1,5 @@
 class BeermappingAPI
+  include Enumerable
   def self.places_in city
     url = "http://beermapping.com/webservice/loccity/#{key}/"
 
@@ -31,6 +32,13 @@ class BeermappingAPI
     places.inject([]) do | set, place |
       set << Place.new(place)
     end
+  end
+
+  def self.fetch_place(id)
+    url = "http://beermapping.com/webservice/locmap/#{key}/#{id}"
+    response = HTTParty.get url
+    place = response.parsed_response["bmp_locations"]["location"]
+    Place.new(:name => place[name])
   end
 
   def self.key
