@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/beermapping_api.rb" afterPath="$PROJECT_DIR$/lib/beermapping_api.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ratebeer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -209,7 +207,7 @@
       <file leaf-file-name="beermapping_api.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/beermapping_api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="99" selection-start="623" selection-end="623" vertical-scroll-proportion="0.32407406">
+            <state line="21" column="23" selection-start="565" selection-end="565" vertical-scroll-proportion="0.32407406">
               <folding />
             </state>
           </provider>
@@ -1316,7 +1314,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/beermapping_api.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="99" selection-start="623" selection-end="623" vertical-scroll-proportion="0.32407406">
+        <state line="21" column="23" selection-start="565" selection-end="565" vertical-scroll-proportion="0.32407406">
           <folding />
         </state>
       </provider>
