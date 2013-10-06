@@ -3,6 +3,7 @@ class BeermappingAPI
     url = "http://beermapping.com/webservice/loccity/#{key}/"
 
     response = HTTParty.get "#{url}#{city.gsub(' ', '%20')}"
+
     places = response.parsed_response["bmp_locations"]["location"]
 
     return [] if places.is_a?(Hash) and places['id'].nil?
@@ -18,7 +19,10 @@ class BeermappingAPI
   def self.fetch_places_in(city)
     url = "http://beermapping.com/webservice/loccity/#{key}/"
 
-    response = HTTParty.get "#{url}#{city.gsub(' ', '%20')}"
+    Rails.cache.fetch("#{url}#{city.gsub(' ', '%20')}", :expires_in => 1.hour) do
+      response = HTTParty.get "#{url}#{city.gsub(' ', '%20')}"
+    end
+
     places = response.parsed_response["bmp_locations"]["location"]
 
     return [] if places.is_a?(Hash) and places['id'].nil?
