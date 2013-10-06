@@ -4,7 +4,7 @@ gem 'rails', '3.2.13'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'travis', '~> 1.5.4'
 gem 'httparty'
-gem 'webmock'
+gem "rails-settings-cached", "0.2.4"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -15,8 +15,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'webmock'
   gem 'factory_girl_rails'
-  #gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'launchy'
   gem 'simplecov', :require => false
