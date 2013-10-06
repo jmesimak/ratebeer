@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.resultset.json" afterPath="$PROJECT_DIR$/coverage/.resultset.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/lib/beermapping_api_spec.rb" afterPath="$PROJECT_DIR$/spec/lib/beermapping_api_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ratebeer.iws" />
@@ -162,6 +159,7 @@
     <file path="$PROJECT_DIR$/../asciichan/app/controllers/places_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381072002057" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/views/places/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071942872" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/models/place.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071935900" ignored="false" />
+    <file path="/beermapping_api_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381073907282" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +200,7 @@
       <file leaf-file-name="beermapping_api_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/lib/beermapping_api_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="34" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.29718456">
+            <state line="43" column="0" selection-start="3238" selection-end="3238" vertical-scroll-proportion="0.6725756">
               <folding />
             </state>
           </provider>
@@ -1318,7 +1316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/beermapping_api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.29718456">
+        <state line="43" column="0" selection-start="3238" selection-end="3238" vertical-scroll-proportion="0.6725756">
           <folding />
         </state>
       </provider>
