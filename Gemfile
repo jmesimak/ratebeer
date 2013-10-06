@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'travis', '~> 1.5.4'
 gem 'httparty'
+gem 'webmock'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
