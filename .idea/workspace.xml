@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Stadin Panimo," afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.resultset.json" afterPath="$PROJECT_DIR$/coverage/.resultset.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/beers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/beers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/breweries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/breweries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/beers/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ratebeer.iml" afterPath="$PROJECT_DIR$/.idea/ratebeer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ratings_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/ratings_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/users_spec.rb" afterPath="$PROJECT_DIR$/spec/features/users_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ratebeer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380478824032" ignored="false" />
+    <file path="/Dummy.txt" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381072115553" ignored="false" />
     <file path="/beer.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380309413645" ignored="false" />
     <file path="/brewery.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379764949066" ignored="false" />
     <file path="/seeds.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379796421850" ignored="false" />
@@ -30,7 +19,7 @@
     <file path="/panimot.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377703268396" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/db/seeds.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377786234826" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/models/user.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379772465615" ignored="false" />
-    <file path="/user.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380463598989" ignored="false" />
+    <file path="/user.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071395590" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/models/physique.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377784055345" ignored="false" />
     <file path="/physique.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377784054512" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/db/schema.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379771230810" ignored="false" />
@@ -60,7 +49,7 @@
     <file path="/routes.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379791025936" ignored="false" />
     <file path="/ratings_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380447002760" ignored="false" />
     <file path="/rating.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380455719673" ignored="false" />
-    <file path="/application.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379791060060" ignored="false" />
+    <file path="/application.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381072376346" ignored="false" />
     <file path="/beers_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1378537744443" ignored="false" />
     <file path="/breweries_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380484282219" ignored="false" />
     <file path="/RatingTools" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379003665268" ignored="false" />
@@ -80,9 +69,9 @@
     <file path="/20130921134425_create_memberships.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379771135401" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/models/membership.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379771182190" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/models/user.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379793486351" ignored="false" />
-    <file path="$PROJECT_DIR$/../asciichan/Gemfile" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379787468040" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/Gemfile" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071775487" ignored="false" />
     <file path="/Gemfile" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380461202017" ignored="false" />
-    <file path="$PROJECT_DIR$/../asciichan/config/routes.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379791025936" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/config/routes.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071757965" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/controllers/user_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379777935254" ignored="false" />
     <file path="/user_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379777935254" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/db/migrate/20130921151401_create_users.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379777282992" ignored="false" />
@@ -101,8 +90,8 @@
     <file path="$PROJECT_DIR$/../asciichan/app/views/users/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379779650902" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/db/migrate/20130921154652_create_users.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379779899492" ignored="false" />
     <file path="/20130921154652_create_users.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379779890298" ignored="false" />
-    <file path="$PROJECT_DIR$/../asciichan/app/models/post.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379784266982" ignored="false" />
-    <file path="/post.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379784266038" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/app/models/post.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380485007957" ignored="false" />
+    <file path="/post.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380485004602" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/db/migrate/20130921160928_create_posts.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379784036719" ignored="false" />
     <file path="/20130921160928_create_posts.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379783815907" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/models/topic.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379793477727" ignored="false" />
@@ -125,7 +114,7 @@
     <file path="$PROJECT_DIR$/../asciichan/db/migrate/20130921181814_add_password_digest_to_user.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379787510366" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/controllers/sessions_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379788663369" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/views/sessions/new.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379788650706" ignored="false" />
-    <file path="$PROJECT_DIR$/../asciichan/app/views/topics/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379797441706" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/app/views/topics/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380484894298" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/views/categories/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379796804265" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/views/categories/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379789953121" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/controllers/topics_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379793350493" ignored="false" />
@@ -136,7 +125,7 @@
     <file path="$PROJECT_DIR$/../asciichan/app/controllers/categories_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379793096105" ignored="false" />
     <file path="/categories_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379793095702" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/views/topics/_form.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379793327859" ignored="false" />
-    <file path="/user_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380393163457" ignored="false" />
+    <file path="/user_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380485399362" ignored="false" />
     <file path="/beer_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380309479964" ignored="false" />
     <file path="/factories.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380397013107" ignored="false" />
     <file path="/breweries_page_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380452135371" ignored="false" />
@@ -149,8 +138,28 @@
     <file path="/fun_with_beers_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380453305199" ignored="false" />
     <file path="$PROJECT_DIR$/../ratebeer_clone/spec/features/users_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380454108035" ignored="false" />
     <file path="$PROJECT_DIR$/../ratebeer_clone/app/views/users/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380454137444" ignored="false" />
-    <file path="/README.md" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380462174078" ignored="false" />
+    <file path="/README.md" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380487309667" ignored="false" />
     <file path="/20130929135733_admin_status_to_users.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380463084931" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/spec/spec_helper.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380484851705" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/spec/models/post_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380485754460" ignored="false" />
+    <file path="/post_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380485753926" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/spec/models/user_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380485497055" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/spec/features/category_page_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380486143883" ignored="false" />
+    <file path="/category_page_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380486127187" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/spec/features/topic_page_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380487178254" ignored="false" />
+    <file path="/topic_page_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380487178254" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/spec/helpers/credential_helper.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380486592660" ignored="false" />
+    <file path="/credential_helper.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380486584983" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/config/application.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380486896901" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/.travis.yml" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380487286140" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/README.md" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380487356645" ignored="false" />
+    <file path="/places_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380992301598" ignored="false" />
+    <file path="/beerlocation_api_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380992947897" ignored="false" />
+    <file path="/temp.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380998096859" ignored="false" />
+    <file path="/places_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380998132570" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/app/controllers/places_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381072002057" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/app/views/places/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071942872" ignored="false" />
+    <file path="$PROJECT_DIR$/../asciichan/app/models/place.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071935900" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,64 +179,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="38" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+            <state line="42" column="87" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
+      <file leaf-file-name="place.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/place.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="91" selection-start="461" selection-end="461" vertical-scroll-proportion="0.27567568">
+            <state line="12" column="3" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="15" column="34" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <file leaf-file-name="places_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/places_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="7" column="69" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="breweries_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/breweries_controller.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="57" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/users_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="156" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+            <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="0.25316456">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/places/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="57" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+            <state line="22" column="9" selection-start="531" selection-end="531" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -236,25 +236,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="62" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130929135733_admin_status_to_users.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130929135733_admin_status_to_users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="28" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+            <state line="35" column="62" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -278,22 +260,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/rating.rb" />
-        <option value="$PROJECT_DIR$/spec/models/brewery_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/views/beers/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/beers_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/ratings_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/features/users_spec.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130929135733_admin_status_to_users.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/breweries_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/places/index.erb.html" />
+        <option value="$PROJECT_DIR$/spec/features/places_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/beerlocation_api_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/places/show.html.erb" />
+        <option value="$PROJECT_DIR$/lib/beermapping_api.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/place.rb" />
+        <option value="$PROJECT_DIR$/app/views/places/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/places_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -335,6 +317,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -378,46 +361,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratebeer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratebeer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="support" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratebeer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ratebeer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,6 +576,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="places" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ratebeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ratebeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="memberships" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -777,7 +742,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -798,7 +762,42 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: ratebeer">
+  <component name="RunManager" selected="RSpec.Places">
+    <configuration default="false" name="Places" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="ratebeer" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/features/places_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Places" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1049,14 +1048,37 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Rake.test" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: ratebeer" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: ratebeer" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Places" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Places" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="" />
@@ -1066,23 +1088,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1097" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1097" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.893" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2230523" sideWeight="0.668" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2145144" sideWeight="0.106" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21664888" sideWeight="0.106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.332" sideWeight="0.5010672" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329" sideWeight="0.4994664" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.332" sideWeight="0.49893278" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.332" sideWeight="0.49893278" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1150,7 +1172,45 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/beer_clubs_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="62" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="124" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/beers_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="21" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/users_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
@@ -1160,100 +1220,56 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/beers_controller.rb">
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="66" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ratings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/ratings_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="57" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130921110946_add_password_digest_to_user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="56" selection-end="123" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/users_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="156" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130929135733_admin_status_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="23" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="62" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="35" column="62" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="38" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+        <state line="15" column="34" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="42" column="87" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/place.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="3" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/breweries_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/places/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="57" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+        <state line="22" column="9" selection-start="531" selection-end="531" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/places_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+        <state line="7" column="69" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="91" selection-start="461" selection-end="461" vertical-scroll-proportion="0.27567568">
+        <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="0.25316456">
           <folding />
         </state>
       </provider>
