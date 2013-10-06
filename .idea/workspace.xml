@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="" />
     <ignored path="ratebeer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381072115553" ignored="false" />
@@ -179,10 +173,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="87" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
+            <state line="5" column="21" selection-start="122" selection-end="122" vertical-scroll-proportion="0.07716049">
               <folding />
             </state>
           </provider>
@@ -215,10 +209,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="0.25316456">
+            <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -1239,13 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="87" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/place.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="3" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
@@ -1269,7 +1256,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="0.25316456">
+        <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="122" selection-end="122" vertical-scroll-proportion="0.07716049">
           <folding />
         </state>
       </provider>
