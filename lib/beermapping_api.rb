@@ -12,6 +12,7 @@ class BeermappingAPI
     places = [places] if places.is_a?(Hash)
     return places.inject([]) do | set, place |
       set << Place.new(place)
+
     end
   end
 
@@ -35,10 +36,13 @@ class BeermappingAPI
   end
 
   def self.fetch_place(id)
-    url = "http://beermapping.com/webservice/locmap/#{key}/#{id}"
+    url = "http://beermapping.com/webservice/locquery/#{key}/#{id}"
     response = HTTParty.get url
     place = response.parsed_response["bmp_locations"]["location"]
-    Place.new(:name => place[name])
+    second_url = "http://beermapping.com/webservice/locscore/#{key}/#{id}"
+    response_score = HTTParty.get second_url
+    place_score = response_score.parsed_response["bmp_locations"]["location"]
+    return Place.new(name: place["name"], blogmap: place["blogmap"], zip: place["zip"], city: place["city"], street: place["street"], overall: place_score["overall"], selection: place_score["selection"], service: place_score["service"], atmosphere: place_score["atmosphere"], food: place_score["food"], reviewcount: place_score["reviewcount"], fbscore: place_score["fscore"], fbcount: place_score["fbcount"])
   end
 
   def self.key

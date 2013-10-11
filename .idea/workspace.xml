@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Stadin Panimo," afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/beer.rb" afterPath="$PROJECT_DIR$/app/models/beer.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/beermapping_api.rb" afterPath="$PROJECT_DIR$/lib/beermapping_api.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/places/index.html.erb" afterPath="$PROJECT_DIR$/app/views/places/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/place.rb" afterPath="$PROJECT_DIR$/app/models/place.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/places_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/places_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/places/show.html.erb" afterPath="$PROJECT_DIR$/app/views/places/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ratebeer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381072115553" ignored="false" />
+    <file path="/Dummy.txt" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381490571686" ignored="false" />
     <file path="/beer.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380309413645" ignored="false" />
     <file path="/brewery.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379764949066" ignored="false" />
     <file path="/seeds.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379796421850" ignored="false" />
     <file path="/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381086977584" ignored="false" />
-    <file path="/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380454422803" ignored="false" />
+    <file path="/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381497344710" ignored="false" />
     <file path="/panimot.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377703268396" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/db/seeds.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377786234826" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/models/user.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379772465615" ignored="false" />
@@ -155,12 +159,13 @@
     <file path="/places_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381073354784" ignored="false" />
     <file path="/beerlocation_api_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380992947897" ignored="false" />
     <file path="/temp.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381091771639" ignored="false" />
-    <file path="/places_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381091222468" ignored="false" />
+    <file path="/places_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381491229259" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/controllers/places_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381072002057" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/views/places/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071942872" ignored="false" />
     <file path="$PROJECT_DIR$/../asciichan/app/models/place.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381071935900" ignored="false" />
     <file path="/beermapping_api_spec.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381073907282" ignored="false" />
-    <file path="/beermapping_api.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381092304794" ignored="false" />
+    <file path="/beermapping_api.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381497254931" ignored="false" />
+    <file path="/place.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381495177614" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,16 +197,16 @@
       <file leaf-file-name="beermapping_api_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/lib/beermapping_api_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="3238" selection-end="3238" vertical-scroll-proportion="0.0">
+            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beermapping_api.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="beermapping_api.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/beermapping_api.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="51" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.57098764">
+            <state line="43" column="77" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,7 +215,7 @@
       <file leaf-file-name="beer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/beer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="58" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,17 +224,19 @@
       <file leaf-file-name="place.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/place.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+            <state line="2" column="2" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/places/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+            <state line="34" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.53797466">
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,7 +253,7 @@
       <file leaf-file-name="places_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/places_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+            <state line="11" column="46" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -264,7 +271,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/places/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="-10.0">
+            <state line="8" column="11" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -288,13 +295,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/places/index.erb.html" />
         <option value="$PROJECT_DIR$/spec/lib/beerlocation_api_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/places/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/models/place.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/spec/features/places_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
@@ -303,7 +307,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/places/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/places_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/beer.rb" />
+        <option value="$PROJECT_DIR$/app/models/place.rb" />
         <option value="$PROJECT_DIR$/lib/beermapping_api.rb" />
+        <option value="$PROJECT_DIR$/app/views/places/show.html.erb" />
       </list>
     </option>
   </component>
@@ -345,7 +352,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -788,6 +794,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -1139,10 +1146,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.332" sideWeight="0.49893278" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15955175" sideWeight="0.668" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16168623" sideWeight="0.668" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21664888" sideWeight="0.106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.332" sideWeight="0.5010672" order="10" side_tool="true" content_ui="tabs" />
@@ -1151,6 +1157,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.332" sideWeight="0.49893278" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1230,23 +1237,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="62" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="62" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
+        <state line="16" column="40" selection-start="466" selection-end="466" vertical-scroll-proportion="-10.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="23" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -1256,9 +1257,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/places_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/places/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+        <state line="8" column="11" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
@@ -1270,20 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/places/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/places/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/beers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="144" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
@@ -1291,38 +1278,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/places_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/places_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+        <state line="11" column="46" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/beer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="58" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/beermapping_api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="3238" selection-end="3238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/place.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/beermapping_api.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="51" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.57098764">
+        <state line="43" column="77" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/place.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/places/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.53797466">
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
