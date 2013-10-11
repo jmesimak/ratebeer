@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Beer do
 
   it "should not be created without a name" do
-    birra = Beer.create :style => "Bad Mojo"
+    birra = Beer.create :styles => "Bad Mojo"
 
     expect(birra.valid?).to be(false)
     expect(Beer.count).to be(0)

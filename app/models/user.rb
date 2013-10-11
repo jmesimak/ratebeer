@@ -29,7 +29,7 @@ class User < ActiveRecord::Base
   end
 
   def favorite_style
-    favorite :style
+    favorite :styles
   end
 
   def rated_styles

@@ -93,9 +93,9 @@ describe User do
     end
 
     it "is the one with highest rating average if several rated" do
-      bier = Beer.create :name => "bank", :style => "buster"
-      bier_two = Beer.create :name => "bonk", :style => "buster"
-      bier_tri = Beer.create :name => "badonkadonk", :style => "rooster"
+      bier = Beer.create :name => "bank", :styles => "buster"
+      bier_two = Beer.create :name => "bonk", :styles => "buster"
+      bier_tri = Beer.create :name => "badonkadonk", :styles => "rooster"
 
       bier.ratings << (Rating.create :score => 50)
       bier_two.ratings << (Rating.create :score => 50)

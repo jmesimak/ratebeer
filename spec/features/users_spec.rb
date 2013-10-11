@@ -6,8 +6,8 @@ describe "User" do
 
   describe "who has signed up" do
     let!(:brewery) { FactoryGirl.create :brewery, :name => "Koff" }
-    let!(:beer1) { FactoryGirl.create :beer, :name => "iso 3", :style => "super", :brewery => brewery }
-    let!(:beer2) { FactoryGirl.create :beer, :name => "Karhu", :style => "duper", :brewery => brewery }
+    let!(:beer1) { FactoryGirl.create :beer, :name => "iso 3", :styles => "super", :brewery => brewery }
+    let!(:beer2) { FactoryGirl.create :beer, :name => "Karhu", :styles => "duper", :brewery => brewery }
 
     it "can sign in with right credentials" do
       sign_in 'Pekka', 'foobar1'
@@ -34,7 +34,7 @@ describe "User" do
     end
 
     it "shows favorite style and brewery on the user's page" do
-      birra = FactoryGirl.create :beer, :name => "iso 3", :style => "super", :brewery => brewery
+      birra = FactoryGirl.create :beer, :name => "iso 3", :styles => "super", :brewery => brewery
       reitinki = Rating.create :beer_id => birra.id, :user => user, :score => 10
       sign_in 'Pekka', 'foobar1'
       expect(page).to have_content "Favorite brewery: #{brewery.name}"
