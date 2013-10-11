@@ -14,22 +14,49 @@ class User < ActiveRecord::Base
   has_many :memberships
   has_many :clubmanships, through: :memberships, source: :beer_club
 
-  def favorite_beer
-    return nil if ratings.empty?
-    ratings.sort_by{ |r| r.score }.last.beer
+  def favorite_brewery
+    favorite :brewery
+  end
+
+  def rated_breweries
+    ratings.map{ |r|r.beer.brewery }.uniq
+  end
+
+  def brewery_rating_average(brewery)
+    ratings_of_brewery = ratings.select{ |r|r.beer.brewery==brewery }
+    return 0 if ratings_of_brewery.empty?
+    ratings_of_brewery.inject(0.0){ |sum ,r| sum+r.score } / ratings_of_brewery.count
   end
 
   def favorite_style
-    return nil if ratings.empty?
-     style_ratings = ratings.group_by { |rating| rating.beer.style}
-     style_rating = style_ratings.each_pair{|style, score| style_ratings[style] = score.sum(&:score) / score.size}
-     return style_ratings.sort_by{ |style, score| score}.last[0]
+    favorite :style
   end
 
-  def favorite_brewery
+  def rated_styles
+    ratings.map{ |r|r.beer.style }.uniq
+  end
+
+  def rated category
+    ratings.map{ |r| r.beer.send(category) }.uniq
+  end
+
+  def rating_average(category, item)
+    ratings_of_item = ratings.select{ |r|r.beer.send(category)==item }
+    return 0 if ratings_of_item.empty?
+    ratings_of_item.inject(0.0){ |sum ,r| sum+r.score } / ratings_of_item.count
+  end
+
+  def favorite(category)
     return nil if ratings.empty?
-    brewery_ratings = ratings.group_by { |rating| rating.beer.brewery}
-    style_rating = brewery_ratings.each_pair{|brewery, score| brewery_ratings[brewery] = score.sum(&:score) / score.size}
-    return brewery_ratings.sort_by{ |brewery, score| score}.last[0]
+    rating_pairs = rated(category).inject([]) do |pairs, item|
+      pairs << [item, rating_average(category, item)]
+    end
+    rating_pairs.sort_by { |s| s.last }.last.first
+  end
+
+  def style_rating_average(style)
+    ratings_of_style = ratings.select{ |r| r.beer.style==style }
+    return 0 if ratings_of_style.empty?
+    ratings_of_style .inject(0.0){ |sum ,r| sum+r.score } / ratings_of_style.count
   end
 end
