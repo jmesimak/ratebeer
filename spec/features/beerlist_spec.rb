@@ -35,4 +35,25 @@ describe "Beerlist page" do
     save_and_open_page
     expect(page).to have_content "Nikolai"
   end
+
+  it "arranges the beers in aplhabetical order", :js => true do
+    visit beerlist_path
+    find('table').find('tr:nth-child(2)').should have_content('Fastenbier')
+    find('table').find('tr:nth-child(3)').should have_content('Lechte Weisse')
+  end
+
+  it "arranges the beers in style order", :js => true do
+    visit beerlist_path
+    click_link "Style"
+    find('table').find('tr:nth-child(2)').should have_content('Lager')
+    find('table').find('tr:nth-child(3)').should have_content('Rauchbier')
+  end
+
+  it "arranges the beers in brewery order", :js => true do
+    visit beerlist_path
+    click_link "Brewery"
+    find('table').find('tr:nth-child(2)').should have_content('Ayinger')
+    find('table').find('tr:nth-child(3)').should have_content('Koff')
+
+  end
 end
