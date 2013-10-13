@@ -20,4 +20,6 @@
     </thead>
 </table>
 
+<%= render 'recent', :recent_ratings => Rating.recent %>
+
 <%= link_to 'New Rating', new_rating_path  %>
