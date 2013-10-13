@@ -1,4 +1,10 @@
-<h2>Listing styles</h2>
-<% @styles.each do |style| %>
-    <%= link_to style.name, style %>
-<% end %>
+<h2>List of all styles</h2>
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <% @styles.each do |style| %>
+        <td><%= link_to style.name, style %></td>
+    <% end %>
+  </tr>
+  </thead>
+</table>

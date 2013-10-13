@@ -5,6 +5,9 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'travis', '~> 1.5.4'
 gem 'httparty'
 gem "rails-settings-cached", "0.2.4"
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

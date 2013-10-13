@@ -1,6 +1,8 @@
 <h1>Listing memberships</h1>
 <p id="notice"><%= notice %></p>
-<table>
+<table class="table table-hover">
+  <thead>
+
   <tr>
     <th></th>
     <th></th>
@@ -11,6 +13,8 @@
 
   <p>User <%= membership.user.username %> belong to <%= membership.beer_club %></p>
 <% end %>
+  </thead>
+
 </table>
 
 <br />

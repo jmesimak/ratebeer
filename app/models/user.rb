@@ -14,49 +14,28 @@ class User < ActiveRecord::Base
   has_many :memberships
   has_many :clubmanships, through: :memberships, source: :beer_club
 
+  def favorite_beer
+    return nil if ratings.empty?
+    ratings.order('score DESC').first.beer
+  end
+
+  def favorite_style
+    favorite :style
+  end
+
   def favorite_brewery
     favorite :brewery
   end
 
-  def rated_breweries
-    ratings.map{ |r|r.beer.brewery }.uniq
+  def ratings_beers
+    @ratings_beers ||= ratings.includes(beer: [:brewery, :style])
   end
 
-  def brewery_rating_average(brewery)
-    ratings_of_brewery = ratings.select{ |r|r.beer.brewery==brewery }
-    return 0 if ratings_of_brewery.empty?
-    ratings_of_brewery.inject(0.0){ |sum ,r| sum+r.score } / ratings_of_brewery.count
-  end
+  private
 
-  def favorite_style
-    favorite :styles
-  end
-
-  def rated_styles
-    ratings.map{ |r|r.beer.style }.uniq
-  end
-
-  def rated category
-    ratings.map{ |r| r.beer.send(category) }.uniq
-  end
-
-  def rating_average(category, item)
-    ratings_of_item = ratings.select{ |r|r.beer.send(category)==item }
-    return 0 if ratings_of_item.empty?
-    ratings_of_item.inject(0.0){ |sum ,r| sum+r.score } / ratings_of_item.count
-  end
-
-  def favorite(category)
-    return nil if ratings.empty?
-    rating_pairs = rated(category).inject([]) do |pairs, item|
-      pairs << [item, rating_average(category, item)]
-    end
-    rating_pairs.sort_by { |s| s.last }.last.first
-  end
-
-  def style_rating_average(style)
-    ratings_of_style = ratings.select{ |r| r.beer.style==style }
-    return 0 if ratings_of_style.empty?
-    ratings_of_style .inject(0.0){ |sum ,r| sum+r.score } / ratings_of_style.count
+  def favorite property
+    return nil if beers.empty?
+    ratings_with_property = ratings_beers.group_by{|rating| rating.beer.send property}
+    ratings_with_property.max_by{|_, rs| rs.map(&:score).inject(0.0, :+) / rs.size}.first
   end
 end
