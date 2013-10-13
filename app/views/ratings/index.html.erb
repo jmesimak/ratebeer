@@ -1,5 +1,8 @@
 <h2>Ratings</h2>
 
+<% cache :expires_in => 10.minutes  do %>
+
+
 <% if flash[:alert] %>
     <p class="flash-error"><%= flash[:alert] %></p>
 <% end %>
@@ -26,5 +29,7 @@
 <%= render 'top', name: "raters", :parameter => User.top_raters(3) %>
 
 <%= render 'recent', :recent_ratings => Rating.recent %>
+
+<% end %>
 
 <%= link_to 'New Rating', new_rating_path  %>
