@@ -18,7 +18,9 @@ Ratebeer::Application.routes.draw do
   resources :sessions, :only => [:new, :create, :destroy]
   resources :places, :only => [:index, :show]
   resources :styles
-  resources :breweries
+  resources :breweries do
+    post 'toggle_activity', :on => :member
+  end
 
 
   # The priority is based upon order of creation:
