@@ -1,7 +1,10 @@
 class Brewery < ActiveRecord::Base
   include RatingTools
 
-  attr_accessible :name, :year
+  attr_accessible :name, :year, :active
+
+  scope :active, where(:active => true)
+  scope :retired, where(:active => [nil, false])
 
   validates_length_of :name, :minimum => 1
   validates_numericality_of :year, { :greater_than_or_equal_to => 1042,
