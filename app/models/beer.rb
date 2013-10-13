@@ -11,6 +11,19 @@ class Beer < ActiveRecord::Base
   has_many :ratings, :dependent => :destroy
   has_many :raters, :through => :ratings, :source => :user
 
+  def self.top(n)
+
+    beers_with_average_rating = []
+    Beer.all.each do |b|
+      if b.average_rating > 0
+        beers_with_average_rating.push(b)
+      end
+    end
+
+    sorted_by_rating_in_desc_order = beers_with_average_rating.sort_by{ |b| -b.average_rating }.first(3)
+
+  end
+
   def average_rating
     return (self.ratings.inject(0.0) { |result, rating | result + rating.score }) / self.ratings.size
   end

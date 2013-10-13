@@ -19,9 +19,27 @@ class Brewery < ActiveRecord::Base
       errors.add(:year, "|| You cannot register your to-be brewery in advance. Please found said brewery first and come back when you have something going on.")
     end
   end
-  #def average_rating
-  #  return (self.ratings.inject(0.0) { |result, rating | result + rating.score }) / self.ratings.size
-  #end
+
+  def self.top(n)
+
+    breweries_with_avg_rating = []
+    Brewery.all.each do |b|
+      if b.average_rating > 0
+        breweries_with_avg_rating.push(b)
+      end
+    end
+
+    sorted_by_rating_in_desc_order = breweries_with_avg_rating.sort_by{ |b| -b.average_rating }.first(3)
+
+  end
+
+
+  def to_s
+    return self.name + ', ' + self.year.to_s
+  end
+  def average_rating
+    return (self.ratings.inject(0.0) { |result, rating | result + rating.score }) / self.ratings.size
+  end
 
 
 end

@@ -23,12 +23,20 @@ class User < ActiveRecord::Base
     favorite :style
   end
 
+  def name
+    return self.username
+  end
+
   def favorite_brewery
     favorite :brewery
   end
 
   def ratings_beers
     @ratings_beers ||= ratings.includes(beer: [:brewery, :style])
+  end
+
+  def self.top_raters(n)
+    User.all.sort_by { |u| u.ratings.count }.first(n)
   end
 
   private

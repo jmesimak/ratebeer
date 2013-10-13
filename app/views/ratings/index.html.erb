@@ -20,6 +20,11 @@
     </thead>
 </table>
 
+<%= render 'top', name: "breweries", :parameter => Brewery.top(3) %>
+<%= render 'top', name: "beers", :parameter => Beer.top(3) %>
+<%= render 'top', name: "styles", :parameter => Style.top(3) %>
+<%= render 'top', name: "raters", :parameter => User.top_raters(3) %>
+
 <%= render 'recent', :recent_ratings => Rating.recent %>
 
 <%= link_to 'New Rating', new_rating_path  %>
