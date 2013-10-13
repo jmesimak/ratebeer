@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user
   helper_method :currently_signed_in?
+  helper_method :user_is_admin?
 
   def current_user
     return nil if session[:user_id].nil?

@@ -11,7 +11,7 @@
   <tr>
     <% parameter.each do |p| %>
         <td><%= link_to p.name, p %></td>
-        <td><%= p.average_rating.round(2) %></td>
+        <td><%= round(p.average_rating) %></td>
         </tr>
 
     <% end %>
