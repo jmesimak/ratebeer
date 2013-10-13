@@ -29,7 +29,7 @@
       <thead>
         <tr>
           <td><%= unconfirmed_membership.user.username %></td>
-          <%= link_to 'Confirm', confirm_membership_path(unconfirmed_membership) %>
+          <td><%= link_to 'Confirm', confirm_membership_path(unconfirmed_membership), :class => "btn" %></td>
         </tr>
       </thead>
     </table>

@@ -9,8 +9,8 @@ class User < ActiveRecord::Base
   validates_length_of :password, :minimum => 4
   validates :password, :format => {:with => /^(?=.*[a-zA-Z])(?=.*[0-9]).{4,}$/, message: "must be at least 4 characters and include one number and one letter."}
 
-  has_many :ratings, dependent: :destroy
-  has_many :beers, :through => :ratings
+  has_many :ratings, dependent: :destroy, :include => [ :beer ]
+  has_many :beers, through: :ratings, include: [:brewery, :style]
   has_many :memberships
   has_many :clubmanships, through: :memberships, source: :beer_club
 
@@ -31,20 +31,26 @@ class User < ActiveRecord::Base
     favorite :brewery
   end
 
-  def ratings_beers
-    @ratings_beers ||= ratings.includes(beer: [:brewery, :style])
-  end
-
   def self.top_raters(n)
     User.all.sort_by { |u| u.ratings.count }.first(n)
   end
 
   def member_of(club)
+    m = Membership.where(:user_id => self.id, :beer_club_id => club.id).first.confirmed
     if self.clubmanships.include? club
-      return true
+      if m
+        return true
+      end
     end
-
     return false
+  end
+
+  def confirmed_memberships
+    Membership.where(:confirmed => true)
+  end
+
+  def pending_memberships
+    Membership.where(:confirmed => [nil, false])
   end
 
   private

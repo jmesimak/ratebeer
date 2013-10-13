@@ -19,11 +19,20 @@
 </p>
 
 <p> <%= @user.username %> belongs to <%= pluralize(@user.clubmanships.size, 'club') %></p>
+<p>Member of</p>
 <ul>
-  <% @user.clubmanships.each do |club| %>
-      <li><%= link_to club.name, club %></li>
+  <% @user.confirmed_memberships.each do |membership| %>
+      <li><%= link_to membership.beer_club.name, membership.beer_club %></li>
   <% end %>
 </ul>
+
+<p>Membership pending for confirmation</p>
+<ul>
+  <% @user.pending_memberships.each do |membership| %>
+      <li><%= link_to membership.beer_club.name, membership.beer_club %></li>
+  <% end %>
+</ul>
+
 
 <ul>
   <% @user.ratings.each do |rating| %>
