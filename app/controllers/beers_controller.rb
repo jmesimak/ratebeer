@@ -3,11 +3,14 @@ class BeersController < ApplicationController
   # GET /beers
   # GET /beers.json
   def index
-    @beers = Beer.all(:include => [:brewery, :style]).sort_by{ |b| b.send(params[:order] || 'name') }
+    @beers = Beer.all
+    @order = params[:order] || 'name'
+
+    @beers = Beer.all(:include => [:brewery, :style]).sort_by{ |b| b.send(@order) }
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render :json => @beers, :methods => :brewery }
+      format.json { render :json => @beers, :methods => [ :brewery, :style ] }
     end
   end
 
@@ -50,7 +53,7 @@ class BeersController < ApplicationController
   # POST /beers.json
   def create
     @beer = Beer.new(params[:beer])
-
+    ["beers-name", "beers-brewery", "beers-style"].each{ |f| expire_fragment(f) }
 
       if @beer.save
         redirect_to beers_path
@@ -64,7 +67,7 @@ class BeersController < ApplicationController
   # PUT /beers/1.json
   def update
     @beer = Beer.find(params[:id])
-
+    ["beers-name", "beers-brewery", "beers-style"].each{ |f| expire_fragment(f) }
     respond_to do |format|
       if @beer.update_attributes(params[:beer])
         format.html { redirect_to @beer, notice: 'Beer was successfully updated.' }
@@ -86,5 +89,6 @@ class BeersController < ApplicationController
       format.html { redirect_to beers_url }
       format.json { head :no_content }
     end
+    ["beers-name", "beers-brewery", "beers-style"].each{ |f| expire_fragment(f) }
   end
 end

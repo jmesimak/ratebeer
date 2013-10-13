@@ -44,6 +44,7 @@ class BreweriesController < ApplicationController
   # POST /breweries.json
   def create
     @brewery = Brewery.new(params[:brewery])
+    ["breweries-name", "breweries-year", "breweries-active"].each{ |f| expire_fragment(f) }
 
     respond_to do |format|
       if @brewery.save
