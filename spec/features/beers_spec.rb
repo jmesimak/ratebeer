@@ -3,6 +3,7 @@ include OwnTestHelper
 
 describe "Beer" do
   let!(:brewery) { FactoryGirl.create :brewery, :name => "Koff" }
+  let!(:style) { FactoryGirl.create :style }
  # let!(:user) { FactoryGirl.create :user }
 
   #before :each do
@@ -18,6 +19,7 @@ describe "Beer" do
     visit new_beer_path
 
     fill_in('beer[name]', with: 'olut')
+    save_and_open_page
     click_button('Create Beer')
 
     expect(Beer.all.count).to eq(1)

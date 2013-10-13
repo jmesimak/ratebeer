@@ -1,9 +1,7 @@
 class Beer < ActiveRecord::Base
-  include Enumerable
+  #include Enumerable
   include RatingTools
   attr_accessible :brewery_id, :name, :style_id
-
-
   validates_length_of :name, :minimum => 1
   validates_presence_of :style
 

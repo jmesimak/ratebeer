@@ -1,5 +1,5 @@
 class BeersController < ApplicationController
-  before_filter :ensure_that_signed_in, :except => [:index, :show]
+  before_filter :ensure_that_signed_in, :except => [:index, :show, :list]
   # GET /beers
   # GET /beers.json
   def index
@@ -7,7 +7,7 @@ class BeersController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @beers }
+      format.json { render :json => @beers, :methods => [ :brewery, :style ] }
     end
   end
 
@@ -35,6 +35,10 @@ class BeersController < ApplicationController
       format.html # new.html.erb
       format.json { render json: @beer }
     end
+  end
+
+  def list
+
   end
 
   # GET /beers/1/edit
