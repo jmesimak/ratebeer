@@ -46,6 +46,7 @@ class BeerClubsController < ApplicationController
 
     respond_to do |format|
       if @beer_club.save
+        Membership.create :confirmed => true, :beer_club_id => @beer_club.id, :user_id => current_user.id
         format.html { redirect_to @beer_club, notice: 'Beer club was successfully created.' }
         format.json { render json: @beer_club, status: :created, location: @beer_club }
       else
@@ -81,5 +82,14 @@ class BeerClubsController < ApplicationController
       format.html { redirect_to beer_clubs_url }
       format.json { head :no_content }
     end
+  end
+
+  def confirm
+    membership = Membership.find(params[:id])
+    membership.update_attribute :confirmed, (not membership.confirmed)
+
+    new_status = membership.confirmed? ? "member" : "pending"
+
+    redirect_to :back, :notice => "Membership activity status changed to #{new_status}"
   end
 end

@@ -39,6 +39,14 @@ class User < ActiveRecord::Base
     User.all.sort_by { |u| u.ratings.count }.first(n)
   end
 
+  def member_of(club)
+    if self.clubmanships.include? club
+      return true
+    end
+
+    return false
+  end
+
   private
 
   def favorite property

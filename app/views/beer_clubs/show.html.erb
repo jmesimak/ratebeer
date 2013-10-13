@@ -17,15 +17,30 @@
 
 <p>Members:</p>
 <td>
-  <% @beer_club.members.each do |member| %>
-  <ul><%= link_to member.username, member %></ul>
+  <% @beer_club.confirmed_members.each do |membership| %>
+      <ul><%= link_to membership.user.username, membership.user %></ul>
   <% end %>
 </td>
+
+<% if current_user && current_user.member_of(@beer_club) && @beer_club.unconfirmed_members.size > 0 %>
+    <b>Unconfirmed members: </b>
+    <% @beer_club.unconfirmed_members.each do |unconfirmed_membership| %>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <td><%= unconfirmed_membership.user.username %></td>
+          <%= link_to 'Confirm', confirm_membership_path(unconfirmed_membership) %>
+        </tr>
+      </thead>
+    </table>
+    <% end %>
+<% end %>
 
 <%= form_for(@membership) do |f| %>
     <%= f.hidden_field :beer_club_id %>
     <%= f.submit class: "btn"%>
 <% end %>
+
 
 <%= link_to 'Edit', edit_beer_club_path(@beer_club) %> |
 <%= link_to 'Back', beer_clubs_path, class: "btn" %>

@@ -3,6 +3,8 @@ class MembershipsController < ApplicationController
   # GET /memberships.json
   def index
     @memberships = Membership.all
+    @confirmed_memberships = Membership.confirmed
+    @unconfirmed_memberships = Membership.unconfirmed
 
     respond_to do |format|
       format.html # index.html.erb
@@ -88,4 +90,11 @@ class MembershipsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def confirm
+    @membership = Membership.find(params[:id])
+    @membership.confirm_membership
+    redirect_to :back
+  end
+
 end
