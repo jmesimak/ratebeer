@@ -3,22 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="29afe4bd-c695-4195-8b14-4274c737d4e1" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Stadin Panimo," afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beer_clubs/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/beer_clubs/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beers/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/beers/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/breweries/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/breweries/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/memberships/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/memberships/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beer_clubs/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/beer_clubs/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beers/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/beers/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/breweries/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/breweries/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beer_clubs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/beer_clubs/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/beers/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/breweries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/memberships/index.html.erb" afterPath="$PROJECT_DIR$/app/views/memberships/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/places/index.html.erb" afterPath="$PROJECT_DIR$/app/views/places/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ratings/index.html.erb" afterPath="$PROJECT_DIR$/app/views/ratings/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/styles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/styles/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beer_clubs/new.html.erb" afterPath="$PROJECT_DIR$/app/views/beer_clubs/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beers/new.html.erb" afterPath="$PROJECT_DIR$/app/views/beers/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/memberships/new.html.erb" afterPath="$PROJECT_DIR$/app/views/memberships/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ratings/new.html.erb" afterPath="$PROJECT_DIR$/app/views/ratings/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beer_clubs/show.html.erb" afterPath="$PROJECT_DIR$/app/views/beer_clubs/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/beers/show.html.erb" afterPath="$PROJECT_DIR$/app/views/beers/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/style.rb" afterPath="$PROJECT_DIR$/app/models/style.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ratebeer.iws" />
@@ -27,8 +28,8 @@
     <file path="/beer.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381516922237" ignored="false" />
     <file path="/brewery.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379764949066" ignored="false" />
     <file path="/seeds.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381507912621" ignored="false" />
-    <file path="/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381659787192" ignored="false" />
-    <file path="/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381659861498" ignored="false" />
+    <file path="/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381660283132" ignored="false" />
+    <file path="/show.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381660379920" ignored="false" />
     <file path="/panimot.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377703268396" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/db/seeds.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377786234826" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/models/user.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379772465615" ignored="false" />
@@ -44,7 +45,7 @@
     <file path="/dayweight.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377784026375" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/views/dayweights/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377786374523" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/views/dayweights/_form.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377944325390" ignored="false" />
-    <file path="/_form.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381507124041" ignored="false" />
+    <file path="/_form.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381660300282" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/controllers/dayweights_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377945905009" ignored="false" />
     <file path="/dayweights_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377945904564" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/views/users/index.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377858032654" ignored="false" />
@@ -52,7 +53,7 @@
     <file path="$PROJECT_DIR$/../quantific/app/views/users/_form.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377888823290" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/views/physiques/new.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377882418809" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/views/users/new.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377883331266" ignored="false" />
-    <file path="/new.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379777346070" ignored="false" />
+    <file path="/new.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381660047039" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/controllers/physiques_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377885678535" ignored="false" />
     <file path="/physiques_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1377884466208" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/controllers/users_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1378541314407" ignored="false" />
@@ -62,7 +63,7 @@
     <file path="/routes.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381507233292" ignored="false" />
     <file path="/ratings_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380447002760" ignored="false" />
     <file path="/rating.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380455719673" ignored="false" />
-    <file path="/application.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381507591575" ignored="false" />
+    <file path="/application.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381660932855" ignored="false" />
     <file path="/beers_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381516876039" ignored="false" />
     <file path="/breweries_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381512402351" ignored="false" />
     <file path="/RatingTools" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379003665268" ignored="false" />
@@ -74,7 +75,7 @@
     <file path="/membership.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379771176926" ignored="false" />
     <file path="/memberships_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381501443720" ignored="false" />
     <file path="/application_controller.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1380484338825" ignored="false" />
-    <file path="/a.dummy" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379788027014" ignored="false" />
+    <file path="/a.dummy" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1381660587661" ignored="false" />
     <file path="/edit.html.erb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379763740760" ignored="false" />
     <file path="$PROJECT_DIR$/../quantific/app/models/group.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379772341444" ignored="false" />
     <file path="/group.rb" changelist="29afe4bd-c695-4195-8b14-4274c737d4e1" time="1379793461566" ignored="false" />
@@ -203,45 +204,56 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="51" selection-start="251" selection-end="251" vertical-scroll-proportion="-6.25">
+            <state line="28" column="36" selection-start="589" selection-end="589" vertical-scroll-proportion="-17.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/styles/index.html.erb">
+      <file leaf-file-name="beerlist.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/beerlist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="287" selection-end="287" vertical-scroll-proportion="-11.25">
+            <state line="20" column="72" selection-start="614" selection-end="614" vertical-scroll-proportion="0.3243243">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <file leaf-file-name="bootstrap.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="51" selection-start="397" selection-end="398" vertical-scroll-proportion="-11.25">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beers/show.html.erb">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="-13.75">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="30" selection-start="76" selection-end="76" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -250,43 +262,34 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="30" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="-18.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/index.html.erb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/beers/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="51" selection-start="419" selection-end="419" vertical-scroll-proportion="-13.75">
+            <state line="5" column="25" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/beers/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="10" selection-start="34" selection-end="61" vertical-scroll-proportion="-1.25">
+            <state line="4" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/breweries/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.27567568">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/style.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+            <state line="5" column="29" selection-start="111" selection-end="111" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -310,22 +313,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/features/beerlist_spec.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
+        <option value="$PROJECT_DIR$/app/views/ratings/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/beer_clubs/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beer_clubs/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beers/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/breweries/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/memberships/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/memberships/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beer_clubs/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beer_clubs/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beer_clubs/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beers/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/beers/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/breweries/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/beers/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/memberships/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/places/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/models/style.rb" />
-        <option value="$PROJECT_DIR$/app/views/ratings/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/styles/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/beers/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -1263,6 +1266,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.332" sideWeight="0.49893278" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16328709" sideWeight="0.863" order="0" side_tool="false" content_ui="combo" />
@@ -1274,7 +1278,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.332" sideWeight="0.49893278" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1342,114 +1345,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/breweries/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="63" selection-start="1685" selection-end="1685" vertical-scroll-proportion="-30.0">
+        <state line="22" column="4" selection-start="566" selection-end="566" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+    <entry file="file://$PROJECT_DIR$/app/views/memberships/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+        <state line="14" column="4" selection-start="395" selection-end="395" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/memberships/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/memberships/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="-10.0">
+        <state line="6" column="6" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/places/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="431" selection-end="431" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ratings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/style.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="251" selection-end="251" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/styles/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="287" selection-end="287" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="51" selection-start="397" selection-end="398" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/beers/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="480" selection-end="480" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="30" column="99" selection-start="795" selection-end="795" vertical-scroll-proportion="-18.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="419" selection-end="419" vertical-scroll-proportion="-13.75">
+        <state line="17" column="21" selection-start="267" selection-end="267" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="34" selection-end="61" vertical-scroll-proportion="-1.25">
+        <state line="5" column="30" selection-start="116" selection-end="116" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="76" selection-end="76" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="30" selection-start="530" selection-end="530" vertical-scroll-proportion="-18.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/beers/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/beers/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="66" selection-end="66" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/breweries/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="111" selection-end="111" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.27567568">
+        <state line="28" column="36" selection-start="589" selection-end="589" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/beerlist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="72" selection-start="614" selection-end="614" vertical-scroll-proportion="0.3243243">
           <folding />
         </state>
       </provider>
